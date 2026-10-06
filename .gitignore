@@ -1,0 +1,6 @@
+.tools/
+node_modules/
+video/raw/
+video/*.webm
+deck/assets/
+*.log

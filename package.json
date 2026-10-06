@@ -1,0 +1,22 @@
+{
+  "name": "kpay-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "python3 -m http.server 8765 --bind 127.0.0.1 -d app",
+    "record": "node scripts/record-demo.js",
+    "deck": "node scripts/build-deck.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "description": "KPay demo kit: self-hosted payment gateway that auto-settles USDT on Solana",
+  "dependencies": {
+    "playwright": "^1.48.2",
+    "pptxgenjs": "^4.0.1",
+    "qrcode-generator": "^2.0.4",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-icons": "^5.7.0",
+    "sharp": "^0.35.5"
+  },
+  "private": true
+}
